@@ -14,7 +14,9 @@ using namespace std;
 
 //Global Constants
 
-//
+//Funtion Prototypes
+
+//Begin Executions
 int main() {
 	int hours, depends, gross, social, fedinc, stainc, net;
 	const float rate=16.78;
@@ -23,13 +25,14 @@ int main() {
 	const float sta_tax=0.05;
 	const int thrkids=35;
 	float NetPay,x,GrosPay,Overtim,StaTaxP,FedTaxP,OverPay,SocTaxP;
-
+	
 	cout<<"How many hours did you work this week?";
 	cin>>hours;
 	cout<<"How many children do you have?";
 	cin>>depends;
 	if (hours>=40){
 	if (depends>=3)
+	//Worked overtime, 3 or more kids
 	{
 	Overtim=hours-40;
 	OverPay=Overtim*(rate*1.5);
@@ -53,7 +56,7 @@ int main() {
 	}
 	else if (hours<40){
 	Overtim=hours-40;
-	
+	//No overtime
 	GrosPay= rate*hours;
 	cout<<"Your gross pay is: $"<<GrosPay<<endl;
 	
