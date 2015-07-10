@@ -15,10 +15,10 @@ using namespace std;
 //Global Constants
 
 //Function Prototypes
-float heading(float, float, )
+/*float heading(float, float, )
 float retire
 float table
-
+*/
 //Execution Begins Here!
 int main(int argc, char** argv) {
     //Declare Variables
