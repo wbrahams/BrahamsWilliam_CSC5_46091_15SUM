@@ -79,7 +79,7 @@ int main(int argc, char** argv) {
  *     }while(savings<savReq);//When we have enough to retire then exit the loop
  * 
  * table function
- * 
+ * (I think I chose literally the worst way to do this)
  *cout<< setw(5)<<"Year"<<setw(15)<<"Date"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
   cout<< setw(5)<<"0"<<setw(15)<<"6/1/2018"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
   cout<< setw(5)<<"1"<<setw(15)<<"6/1/2019"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
