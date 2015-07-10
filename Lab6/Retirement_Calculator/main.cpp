@@ -1,8 +1,8 @@
 /* 
  * File:   main.cpp
- * Author: Dr. Mark E. Lehr
- * Created on July 8, 2015, 10:45 AM
- * Purpose:  Retirement Calculator
+ * Author: William Brahams
+ * Created on July 9, 2015, 6:55 PM
+ * Purpose:  Retirement Calculator, Lab6, Functions
  */
 
 //System Library
