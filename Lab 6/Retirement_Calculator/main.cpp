@@ -1,8 +1,8 @@
-/*
- * File: main.cpp
- * Author: William Brahams
- * Created on July 9, 2015, 7:57 PM
- * Purpose: Retirement Calculator, Lab 6
+/* 
+ * File:   main.cpp
+ * Author: Dr. Mark E. Lehr
+ * Created on July 8, 2015, 10:45 AM
+ * Purpose:  Retirement Calculator
  */
 
 //System Library
@@ -10,28 +10,28 @@
 #include <iomanip>
 using namespace std;
 
-//User Libraries (None)
+//User Libraries
 
-//Global Constants (None)
+//Global Constants
 
-//Function Prototypes (None)
+//Function Prototypes
 
-//Begin Ze Executions!
+//Execution Begins Here!
 int main(int argc, char** argv) {
     //Declare Variables
-    float salary=100000; //Example salary, average expectation in $'s
-    float invRate=0.0f;  //Investment Rate -> see Calif. Muni Bonds
-    float savReq;        //Savings required at retirement
-    float pDep=0.20f;    //Of your gross salary -> percentage Deposited
-    float deposit;        //Yearly deposit in $'s
-    float savings=0;      //Initial savings at start of employment
-    float year=0;         //Start at year 0
+    float salary=100000; //Average Salary in $'s
+    float invRate=0.06f;//Investment Rate -> see Calif Muni Bonds
+    float savReq;       //Savings required at retirement
+    float pDep=0.20f;   //Of your gross Salary -> Percentage Deposited 
+    float deposit;      //Yearly deposit in $'s
+    float savings=0;    //Initial Savings at start of Employment
+    float year=0;       //Start at year 0
     
     //Calculate required savings
-    savReq=salary/invRate;  //Required Savings
-    deposit=pDep*salary;    //Deposit based salary
+    savReq=salary/invRate; //Required Savings
+    deposit=pDep*salary;   //Deposit based salary
     
-    //Loop to calculate when retirement is possible
+    //Loop to calculate when Retirement is possible
     do{
         savings*=(1+invRate);//Earning based upon investment rate
         savings+=deposit;    //Add the deposit after earning interest
@@ -43,6 +43,6 @@ int main(int argc, char** argv) {
     cout<<"I can retire in "<<year<<" (years) with $"
             <<savings<<" in savings!!!"<<endl;
     
-    //And thats the way the cookie crumbles
+    //Exit Stage Right!
     return 0;
 }
