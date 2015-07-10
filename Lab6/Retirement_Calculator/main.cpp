@@ -3,6 +3,12 @@
  * Author: William Brahams
  * Created on July 9, 2015, 6:55 PM
  * Purpose:  Retirement Calculator, Lab6, Functions
+ * I have been working on this lab for hours trying to figure out
+ * how to work the loops with the table output. Since I will not be able to
+ * be successful by the end of the night, I am trying to hash out all of my 
+ * 'logics' in the notes. I know this amounts to nothing in the real world, 
+ * but hey, it is a lab assignment anyways. I will need to have these types
+ * of issues understood fully by the time the projects and such are due.
  */
 
 //System Library
@@ -16,7 +22,12 @@ using namespace std;
 
 //Function Prototypes
 //Figure out the definitions
-/*float heading(float, float, )
+//heading has no variables, should just be string literals
+//
+//table has the table titles
+//TYear, TDate, BegYrSa, EndYrSa, EndYrIn, EndYrDe
+//
+/*float heading
   float retire
   float table
 */
