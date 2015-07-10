@@ -84,39 +84,42 @@ int main(int argc, char** argv) {
  * for(int i=1;i<=5;i++)
 	cout<<i<<endl;
  * 
- *cout<< setw(5)<<"Year"<<setw(15)<<"Date"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
-  cout<< setw(5)<<"y"<<setw(15)<<"6/1/2018"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
-  cout<< setw(5)<<"y"<<setw(15)<<"6/1/2019"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
-  cout<< setw(5)<<"y"<<setw(15)<<"6/1/2020"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
-  cout<< setw(5)<<"y"<<setw(15)<<"6/1/2021"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
-  cout<< setw(5)<<"y"<<setw(15)<<"6/1/2022"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
-  cout<< setw(5)<<"y"<<setw(15)<<"6/1/2023"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
-  cout<< setw(5)<<"y"<<setw(15)<<"6/1/2024"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
-  cout<< setw(5)<<"y"<<setw(15)<<"6/1/2025"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
-  cout<< setw(5)<<"y"<<setw(15)<<"6/1/2026"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
-  cout<< setw(5)<<"y"<<setw(15)<<"6/1/2027"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
-  cout<< setw(5)<<"y"<<setw(15)<<"6/1/2028"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
-  cout<< setw(5)<<"y"<<setw(15)<<"6/1/2029"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
-  cout<< setw(5)<<"y"<<setw(15)<<"6/1/2030"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
-  cout<< setw(5)<<"y"<<setw(15)<<"6/1/2031"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
-  cout<< setw(5)<<"y"<<setw(15)<<"6/1/2032"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
-  cout<< setw(5)<<"y"<<setw(15)<<"6/1/2033"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
-  cout<< setw(5)<<"y"<<setw(15)<<"6/1/2034"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
-  cout<< setw(5)<<"y"<<setw(15)<<"6/1/2035"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
-  cout<< setw(5)<<"y"<<setw(15)<<"6/1/2036"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
-  cout<< setw(5)<<"y"<<setw(15)<<"6/1/2037"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
-  cout<< setw(5)<<"y"<<setw(15)<<"6/1/2038"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
-  cout<< setw(5)<<"y"<<setw(15)<<"6/1/2039"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
-  cout<< setw(5)<<"y"<<setw(15)<<"6/1/2040"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
-  cout<< setw(5)<<"y"<<setw(15)<<"6/1/2041"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
-  cout<< setw(5)<<"y"<<setw(15)<<"6/1/2042"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
-  cout<< setw(5)<<"y"<<setw(15)<<"6/1/2043"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
-  cout<< setw(5)<<"y"<<setw(15)<<"6/1/2044"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
-  cout<< setw(5)<<"y"<<setw(15)<<"6/1/2045"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
-  cout<< setw(5)<<"y"<<setw(15)<<"6/1/2046"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
-  cout<< setw(5)<<"y"<<setw(15)<<"6/1/2047"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
-  cout<< setw(5)<<"y"<<setw(15)<<"6/1/2048"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
-  cout<< setw(5)<<"y"<<setw(15)<<"6/1/2049"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;	
+ *int y;
+	for(int y=0;y<=31;y++)
+
+ cout<< setw(5)<<y<<setw(15)<<"Date"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
+  cout<< setw(5)<<y<<setw(15)<<"6/1/2018"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
+  cout<< setw(5)<<y<<setw(15)<<"6/1/2019"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
+  cout<< setw(5)<<y<<setw(15)<<"6/1/2020"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
+  cout<< setw(5)<<y<<setw(15)<<"6/1/2021"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
+  cout<< setw(5)<<y<<setw(15)<<"6/1/2022"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
+  cout<< setw(5)<<y<<setw(15)<<"6/1/2023"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
+  cout<< setw(5)<<y<<setw(15)<<"6/1/2024"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
+  cout<< setw(5)<<y<<setw(15)<<"6/1/2025"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
+  cout<< setw(5)<<y<<setw(15)<<"6/1/2026"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
+  cout<< setw(5)<<y<<setw(15)<<"6/1/2027"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
+  cout<< setw(5)<<y<<setw(15)<<"6/1/2028"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
+  cout<< setw(5)<<y<<setw(15)<<"6/1/2029"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
+  cout<< setw(5)<<y<<setw(15)<<"6/1/2030"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
+  cout<< setw(5)<<y<<setw(15)<<"6/1/2031"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
+  cout<< setw(5)<<y<<setw(15)<<"6/1/2032"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
+  cout<< setw(5)<<y<<setw(15)<<"6/1/2033"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
+  cout<< setw(5)<<y<<setw(15)<<"6/1/2034"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
+  cout<< setw(5)<<y<<setw(15)<<"6/1/2035"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
+  cout<< setw(5)<<y<<setw(15)<<"6/1/2036"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
+  cout<< setw(5)<<y<<setw(15)<<"6/1/2037"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
+  cout<< setw(5)<<y<<setw(15)<<"6/1/2038"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
+  cout<< setw(5)<<y<<setw(15)<<"6/1/2039"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
+  cout<< setw(5)<<y<<setw(15)<<"6/1/2040"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
+  cout<< setw(5)<<y<<setw(15)<<"6/1/2041"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
+  cout<< setw(5)<<y<<setw(15)<<"6/1/2042"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
+  cout<< setw(5)<<y<<setw(15)<<"6/1/2043"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
+  cout<< setw(5)<<y<<setw(15)<<"6/1/2044"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
+  cout<< setw(5)<<y<<setw(15)<<"6/1/2045"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
+  cout<< setw(5)<<y<<setw(15)<<"6/1/2046"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
+  cout<< setw(5)<<y<<setw(15)<<"6/1/2047"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
+  cout<< setw(5)<<y<<setw(15)<<"6/1/2048"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;
+  cout<< setw(5)<<y<<setw(15)<<"6/1/2049"<<setw(15)<<"Beg Yr Sav"<<setw(15)<<"End Yr Int"<<setw(15)<<"End Yr Dep"<<endl;	
  * 
  * 
  * 
