@@ -9,8 +9,9 @@
 #include <iomanip>
 #include <cstdlib>
 #include <time.h>
-#include <string>
+#include <cstring>
 #include <stdio.h>
+#include <fstream>
 using namespace std;
 
 //Global Constants
@@ -19,16 +20,21 @@ using namespace std;
 void Menu();
 int getN();
 void def(int);
+void HighSco();
 void cointos();
 void guessha();
 void picknum();
 void rocscip();
 void war();
 void gauntlet();
+void DispDat();
+void CollDat ();
 
 //Execution begins here
-int main(int argv,char *argc[]){
+int main(){
     int inN;
+    clock_t start,finish;
+    int duration = 0;
     do{
         Menu();
         inN=getN();
@@ -39,27 +45,33 @@ int main(int argv,char *argc[]){
         case 4: rocscip();break;
         case 5: war();break;
         case 6: gauntlet();break;
+        case 7: HighSco();break;
             default:;
         };
-    }while(inN<7);
-    do{
-         Menu();
+    }while(inN<8);
+    /*do{
+        Menu();
         inN=getN();
         switch(inN){
-        case 8: gauntlet();
-        case 9: cointos();
-        case 10: guessha();
-        case 11: picknum();
-        case 12: rocscip();
+        start = clock();
+        case 8: cointos();
+        case 9: guessha();
+        case 10: picknum();
+        case 11: rocscip();
+        finish = clock();
+        duration = ((finish - start)/CLOCKS_PER_SEC);
              default:;
         };
     }while(inN>7);
-    
+      */ 
     return 0;
 }
 
 //Menu Function
 void Menu(){
+    int duration=0;
+    clock_t start, finish;
+    
     cout<<"Welcome to the Griswald Cheapo Casino, where 'none of these"<<endl;
     cout<<"games are found at the Mirage!"<<endl<<endl<<endl;
     cout<<"Type 1 for Coin Toss"<<endl;
@@ -67,8 +79,12 @@ void Menu(){
     cout<<"Type 3 for Pick a Number"<<endl;
     cout<<"Type 4 for Rock, Scissor, Paper"<<endl;
     cout<<"Type 5 for War"<<endl;
-    cout<<"Type 9 to run the first 4 for a time trial"<<endl;
-    cout<<"Type 7 to exit \n"<<endl;
+    cout<<"Type 6 to run the first 4 for a time trial"<<endl;
+    cout<<"Type 7 for the high scores"<<endl;
+    cout<<"Type 8 to exit \n"<<endl;
+    
+    
+   
     
 }
 
@@ -87,6 +103,58 @@ int getN(){
     return inN;
 }
 
+
+
+
+
+/******************************************************
+  ***************HighSco*******************************
+ ******************************************************
+ * Purpose: Record the time into a .txt file
+ * Input/Output: Seconds elapsed
+ *
+ */
+
+void HighSco(){
+    
+        fstream infile("scores.txt",ios::in);
+        if(!infile){cerr<<"file could not be found!";exit(1);}
+
+        fstream outfile("average.txt",ios::out);
+        if(!outfile){cerr<<"file could not be created!";exit(1);}
+
+
+        char fname[20];
+        char lname[20];
+        int scores;
+        char c;
+        int lines=1;
+        double avg=0;
+
+        while(infile.get(c))
+        {if(c=='\n') lines++;}
+        infile.clear();
+        infile.seekg(0);
+
+        for(int k=0;k<lines;k++)
+            {
+                infile>>fname;
+                infile>>lname;
+                outfile<<fname<<" "<<lname<<" ";
+                int sum=0;
+                for(int i=0;i<10;i++)
+                {
+                    if(infile>>scores)
+                    {sum+=scores;
+                    outfile<<scores<<" ";}
+                }
+
+                outfile<<(double)sum/10.0<<endl;
+            }
+
+               
+    
+}
 /******************************************************
  ***************** cointos*****************************
  ******************************************************
@@ -408,10 +476,64 @@ cin>>keePlay;
 
 //Solution to problem 6
 void gauntlet(){
+    
+
     cout<<"You have chosen to run the gauntlet.\n "<<endl<<endl;
-    cout<<"Good Luck     Please press enter."<<endl;}
+    cout<<"Good Luck     Please press enter."<<endl;
+    int inN;
+    clock_t start;
+     inN=getN();
+        switch(inN){
+        start = clock();
+        case 9: cointos();
+    int inN;
+    clock_t start,finish;
+    
+        inN=getN();
+        switch(inN){
+        start = clock();
+        case 9: cointos();
+        case 10: guessha();
+        case 11: picknum();
+        case 12: rocscip();
+        finish = clock();
+     
+     HighSco();
+             default:;
 
 
+}
+        }
+}
+
+
+void CollDat(ofstream& fout)
+{
+	string name = "", date = "", score = "";
+	
+	do
+	{
+		cout << "Enter the first 4 letters of your name" << endl;
+		cin >> name;
+		cout << "Enter the score" << endl;
+		cin >> score;
+		cout << "Enter the date (mm/dd/yy) "<< endl;
+		cin >> date;
+		fout << name << " " << score << " " << date << endl;
+	} while (name != "quit" || score != "quit" || date != "quit");
+	  // type "quit" for name, score, or date to stop
+}
+
+void DispDat(ifstream& fin)
+{
+	string line = "";
+	while (!fin.eof())
+	{
+		getline(fin, line, '\n');
+		cout << line << endl;
+	}
+
+}
 //Exit Comment
 void def(int inN){
     cout<<"You typed "<<inN<<" to exit the program"<<endl;
