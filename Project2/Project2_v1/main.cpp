@@ -2,7 +2,7 @@
  * File: main.cpp
  * Author: William Brahams
  * Created on: July 17, 2015, 7:30 PM
- * Purpose: Project 1*/
+ * Purpose: Project 2*/
 
 //System Libraries
 #include <iostream>
